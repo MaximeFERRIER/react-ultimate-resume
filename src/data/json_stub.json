@@ -1,202 +1,218 @@
 {
     "basics": {
-        "name": "John Doe",
-        "label": "Programmer",
-        "picture": "",
-        "email": "john@gmail.com",
-        "phone": "(912) 555-4321",
-        "website": "http://johndoe.com",
-        "summary": "A summary of John Doe...",
-        "location": {
-            "address": "2712 Broadway St",
-            "postalCode": "CA 94115",
-            "city": "San Francisco",
-            "countryCode": "US",
-            "region": "California"
-        },
+        "name": "Maxime FERRIER",
+        "label": "Développeur Android",
+        "picture": "https://media-exp1.licdn.com/dms/image/C5603AQG5pOhQLPqTXA/profile-displayphoto-shrink_200_200/0?e=1591833600&v=beta&t=yW3hxmPX2hiMlXks4PMgh0ePp7UpU0EQBr27DUhbDQg",
+        "email": "maxime.ferrier@gmx.com",
+        "phone": "+33 7 72 32 04 70",
+        "website": "https://maximeferrier.github.io",
+        "summary": "Ingénieur informatique, spécialisé dans le développement d'applications mobiles Android.",
+
         "profiles": [
             {
-                "network": "Twitter",
-                "username": "john",
-                "url": "http://twitter.com/john"
+                "network": "Linkedint",
+                "username": "maximeferrier1",
+                "url": "https://www.linkedin.com/in/maximeferrier1/"
             }
         ]
     },
     "work": [
         {
-            "name": "Company 2 ",
-            "position": "Worker",
-            "website": "http://company.com",
-            "startDate": "2014-01-01",
-            "summary": "Description...",
-            "location": "Paris, France",
+            "name": "Youboox",
+            "position": "Développeur Android",
+            "website": "https://youboox.fr",
+            "startDate": "2019-11-12",
+            "summary": "Développement de la refonte de l'application Android de Youboox. Natif, 100% Kotlin, Clean architecture, MVI, Epoxy & MvRx.",
+            "location": "Toulouse, France",
             "highlights": ["Started the company"]
         },
         {
-            "name": "What a nice office",
-            "position": "President",
-            "website": "http://company.com",
-            "startDate": "2013-01-01",
-            "endDate": "2014-01-01",
-            "summary": "Description...",
-            "location": "Paris, France",
+            "name": "Eyelights",
+            "position": "Développeur Android",
+            "website": "https://eye-lights.com/",
+            "startDate": "2019-07-15",
+            "endDate": "2019-10-01",
+            "summary": "Développement de l'application Android Eyelights Car. Natif, 100% Kotlin, Intégration d'Alexa, Overley Widget, BLE.",
+            "location": "Labège, France",
             "highlights": ["Started the company"]
         },
         {
-            "name": "What a nice experience",
-            "position": "Lead dev",
-            "website": "http://company.com",
-            "summary": "Description...",
-            "location": "Paris, France",
+            "name": "Webedia",
+            "position": "Développeur Android",
+            "website": "https://fr.webedia-group.com/",
+            "summary": "Développement de l'application Android Pixwoo. Natif, 100% Kotlin, MVVM.",
+            "location": "Toulouse, France",
             "highlights": ["Started the company"]
-        }
-    ],
-    "volunteer": [
+        },
         {
-            "organization": "Organization",
-            "position": "Volunteer",
-            "website": "http://organization.com/",
-            "endDate": "2013-01-01",
-            "summary": "Description...",
-            "highlights": ["Awarded 'Volunteer of the Month'"]
+            "name": "MAIF",
+            "position": "Développeur Android",
+            "website": "https://www.maif.fr/",
+            "summary": "(En prestation avec Sopra Steria) Développement de l'application Android MAIF. Natif, Java, formation des équipes au Kotlin.",
+            "location": "Niort, France",
+            "highlights": ["Started the company"]
+        },
+        {
+            "name": "MACIF",
+            "position": "Développeur Android",
+            "website": "https://www.macif.fr/assurance/particuliers",
+            "summary": "(En prestation avec Sopra Steria) Développement de l'application Android MACIF. Application hybride (Cordova), responsable de la section Santé. Formation des équipes à Android natif.",
+            "location": "Niort, France",
+            "highlights": ["Started the company"]
         }
     ],
     "education": [
         {
-            "institution": "ISEN",
-            "area": "Software Development",
-            "studyType": "Engineer Degree",
-            "startDate": "2011-01-01",
-            "endDate": "2013-01-01",
-            "gpa": "4.0",
-            "courses": ["DB1101 - Basic SQL"]
+            "institution": "Université de Poitiers",
+            "area": "Génie Physiologie Biotechnologie et Informatique, option Imagerie Médicale",
+            "studyType": "Master",
+            "startDate": "2017-09-01",
+            "endDate": "2017-09-29",
+            "gpa": "4.0"
         },
         {
-            "institution": "Université d'artois",
-            "area": "",
-            "studyType": "",
-            "startDate": "2011-01-01",
-            "endDate": "",
-            "gpa": "4.0",
-            "courses": ["DB1101 - Basic SQL"]
+            "institution": "Université de Poitiers",
+            "area": "Génie Bio-Informatique",
+            "studyType": "Licence",
+            "startDate": "2014-09-01",
+            "endDate": "2015-08-31",
+            "gpa": "4.0"
+        },
+        {
+            "institution": "IUT de Clermont 1, Antenne d'Aurillac",
+            "area": "Génie Biologie, option BioInformatique",
+            "studyType": "DUT",
+            "startDate": "2011-09-01",
+            "endDate": "2014-07-15",
+            "gpa": "4.0"
         }
     ],
     "awards": [
+      {
+          "title": "Associate Android Developer",
+          "date": "2019-10-24",
+          "awarder": "Google Developer Certification"
+      },
         {
-            "title": "Award",
-            "date": "2014-11-01",
-            "awarder": "Company",
-            "summary": "There is no spoon."
+            "title": "Kotlin Developer Masterclass - Build Android & Kotlin Apps",
+            "date": "2017-09-01",
+            "awarder": "Udemy"
         }
     ],
     "publications": [
         {
-            "name": "Publication",
-            "publisher": "Company",
-            "releaseDate": "2014-10-01",
-            "website": "http://publication.com",
-            "summary": "Description..."
+            "name": "Overview of a Surface-Ripened Cheese Community Functioning by Meta-Omics Analyses",
+            "publisher": "Plos One",
+            "releaseDate": "2015-04-13",
+            "website": "journals.plos.org/plosone/article?id=10.1371/journal.pone.0124360",
+            "summary": "Section Acknowledgments"
         }
     ],
     "skills": [
         {
-            "name": "Reactaaa",
+            "name": "Android",
             "level": "Master",
             "value": 100,
-            "keywords": ["HTML", "CSS", "Javascript"]
-        },
-        {
-            "name": "Angular",
-            "level": "Master",
-            "value": 80,
-            "keywords": ["HTML", "CSS", "Javascript"]
-        },
-        {
-            "name": "NodeJS",
-            "level": "Master",
-            "value": 40,
-            "keywords": ["HTML", "CSS", "Javascript"]
+            "keywords": ["Android", "Natif", "Kotlin"]
         },
         {
             "name": "Firebase",
             "level": "Master",
             "value": 60,
-            "keywords": ["HTML", "CSS", "Javascript"]
+            "keywords": ["Event", "Performance", "Database"]
         },
         {
-            "name": "Gmail",
+            "name": "Speacker",
             "level": "Master",
-            "value": 20,
-            "keywords": ["HTML", "CSS", "Javascript"]
-        },
-        {
-            "name": "K8S",
-            "level": "Master",
-            "value": 80,
-            "keywords": ["HTML", "CSS", "Javascript"]
+            "value": 40,
+            "keywords": ["Google Slides", "Meetup"]
         }
     ],
-    "languages": [{ "language": "English", "value": 100, "fluency": "Native speaker" }],
+    "languages": [{ "language": "Français", "value": 100, "fluency": "Langue maternelle" }, { "language": "Anglais", "value": 80, "fluency": "Anglais technique" }],
     "interests": [
         {
-            "name": "Burritos",
-            "gifUrl": "https://media.giphy.com/media/d8WjGORtSEWqc/giphy.gif"
+            "name": "Nouvelles technologies",
+            "gifUrl": "https://media.giphy.com/media/o0vwzuFwCGAFO/giphy.gif"
         },
         {
-            "name": "Dogs",
-            "gifUrl": "https://media.giphy.com/media/3o85xsGXVuYh8lM3EQ/giphy.gif"
+            "name": "Randonnées en montagne",
+            "gifUrl": "https://media.giphy.com/media/SXNfFoICorM1q/giphy.gif"
         },
         {
-            "name": "Tendresse",
-            "gifUrl": "https://media.giphy.com/media/EehnUUCH2JcwU/giphy.gif"
+            "name": "Rugby",
+            "gifUrl": "https://media.giphy.com/media/6SjdlWVipON0Y/giphy.gif"
         },
         {
-            "name": "Something",
-            "gifUrl": "https://media.giphy.com/media/xTiTnIuKP1BLsMTerS/giphy.gif"
-        },
-        {
-            "name": "J'aime faire de la course à pied et des randonnées en famille le weekend."
+            "name": "Jeux vidéos",
+            "gifUrl": "https://media.giphy.com/media/cWo5UdG06KCHe/giphy.gif"
         }
     ],
-    "references": [{ "name": "Jane Doe", "reference": "Reference..." }],
+    "references": [{ "name": "Nedra Kaschroudi", "reference": "J’ai travaillé avec Maxime en tant que lead developpeur Android à la Maif, j’ai beaucoup apprécié sa motivation, sa veille technologique et ses propositions d’idées. Il a réussi à me convaincre de migrer vers Kotlin ;). Enfin, Maxime est un très bon developpeur Android, il apprend vite et il est à l’ecoute pour monter ses competences. Coté humain, il est tres sociable, sympathique et s’integre vite dans l’equipe." },
+    { "name": "Florent Morin", "reference": "J'ai travaillé avec Maxime lorsque nous étions développeur iOS et développeur Android au sein d'un premier projet mobile. Nous avons ensuite eu l'occasion de travailler au sein des équipes iOS et Android de l'équipe mobile MAIF. Sans travailler directement avec Maxime, j'ai toujours eu de riches échanges avec lui. Il est investi et passionné par son métier. Nous avons également eu l'occasion d'animer ensemble quelques Meetups illustrant des sujets mobiles dans nos domaines de compétence respectifs. Du peu que j'ai pu travailler avec lui, c'est un bon élément dans une équipe." }],
     "projects": [
+      {
+          "name": "Borne d'arcade",
+          "description": "Création d'une borne d'arcade, avec un Raspberry Pi B.",
+          "images": [{"url":"http://fersucnextpi.ddns.net/nextcloud/index.php/s/3NpHbft4tMMDCK3/preview"}]
+      },
         {
-            "name": "Développement d'un serpent connecté",
-            "description": "Et oui, vous avez bien entendu !\nUn serpent connecté, c'est comme une montre connectée, mais en serpent, en fait ça ressemble pas une montre, mais ça reste connecté 🚀",
+            "name": "Speacker",
+            "description": "Evènement sponsorisé par AltiJ. Préparation et présentation de travaux autour du tracking sur le net.",
+            "images": []
+        },
+        {
+            "name": "Speacker",
+            "description": "Inauguration des nouveaux locaux de Niort Numéric. En association avec un expert iOS et un datascientist. Préparation et présentation des travaux autour de la création et du ré-entraînement de modèles de machine learning avec Tensorflow et leurs implémentations dans des applications mobiles natives Android (Kotlin) et iOS (Swift).",
+            "images": []
+        },
+        {
+            "name": "Speacker",
+            "description": "Préparation et présentation de travaux autour du ré-entraînement de modèles de machine learning avec Tensorflow et leurs implémentations dans des applications mobiles natives Android (Kotlin).",
+            "images": []
+        },
+        {
+            "name": "Domotique",
+            "description": "Soudures et pose de capteurs sur des Raspberry Pi 0, enregistrement des données dans une BDD locale, création d'une interface REST en PHP, création de l'application mobile (Android Kotlin) pour lire les valeurs.",
+            "images": [{"url":"http://fersucnextpi.ddns.net/nextcloud/index.php/apps/files_sharing/publicpreview/3kybW2SsjQHPaSn?x=1853&y=578&a=true&file=appliCapteurs.png&scalingup=0"}]
+        },
+        {
+            "name": "Cadre photo commémoratif",
+            "description": "Création d'un cadre photo commémoratif avec un Raspberry Pi 3, avec l'hébergement d'une page web pour déposer les nouvelles photos à afficher sur le cadre.",
+            "images": []
+        },
+        {
+            "name": "Serveur Cloud",
+            "description": "Création d'un serveur Cloud avec un Raspberry Pi B+ et un disque dur externe avec le logiciel OwnCloud et le manager de DNS No-IP",
             "images": []
         }
     ],
     "specific": {
         "basics": {
-            "visaSponsorship": true,
-            "personalDescription": "This is a longer description of me, of my backstory, my backyard, my backfire, my backend, my frontend and my friends."
+            "visaSponsorship": false,
+            "personalDescription": "Ingénieur informatique, spécialisé dans le développement d'applications mobiles Android. Communiquant, avec un bon relationnel, je reste à l'affût des dernières évolutions dans le monde de l'IT pour améliorer mes connaissances et augmenter mon bagage technique."
         },
         "dreamJob": {
             "locations": [
-                { "name": "Valenciennes, France" },
-                { "name": "Lille, France" },
-                { "name": "Paris,France" },
-                { "name": "Paris,France" },
-                { "name": "Lille, France" },
-                { "name": "Valenciennes, France" }
+                { "name": "Montreal, Canada" },
+                { "name": "Toulouse, France" }
             ],
             "remoteFrequency": "regularly"
         },
         "currentJob": {
-            "issues": { "boring_management": true, "boring_team": true }
+            "issues": { "boring_management": false, "boring_team": false }
         },
         "education": { "studiesLevel": 5 },
         "work": {
             "contractTypes": ["permanent"],
-            "codingYears": 7,
-            "codingReason": "J'ai commencé à coder sur Amstrad dans ma cave et je n'ai jamais arrêté depuis",
-            "searchState": "activelySearching",
-            "experienceYears": 9
+            "codingYears": 3,
+            "codingReason": "J'ai commencé à apprendre à coder au lycée. Je n'ai jamais réussi à m'arrêter.",
+            "searchState": "notSearching",
+            "experienceYears": 3
         },
         "sound": {
-            "embedUrl": "https://open.spotify.com/embed/playlist/37i9dQZF1DWWl7MndYYxge"
+            "embedUrl": "https://open.spotify.com/playlist/37i9dQZF1E39ElZspCqaVR?si=-hJHG_jDQ2auVtVm2sywww"
         },
-        "interestedBy": "Angular, la blochain et les chatons."
+        "interestedBy": "Android, Tensorflow, Formateur"
     },
     "resumeCustomization": {
         "imageHeader": {
@@ -217,7 +233,7 @@
         ],
         "fields": {
             "work": {
-                "customDateFormat": "YYYY"
+                "customDateFormat": "MM-YYYY"
             }
         }
     }
